@@ -1,4 +1,8 @@
 package com.shuklz.intro.behavior.quack;
 
-public class Quack {
+public class Quack implements QuackBehavior {
+    @Override
+    public void quack() {
+        System.out.println("Quack");
+    }
 }

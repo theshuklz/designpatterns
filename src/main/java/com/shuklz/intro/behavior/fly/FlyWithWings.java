@@ -1,4 +1,8 @@
 package com.shuklz.intro.behavior.fly;
 
-public class FlyWithWings {
+public class FlyWithWings implements FlyBehavior {
+    @Override
+    public void fly() {
+        System.out.println("I am flying");
+    }
 }
